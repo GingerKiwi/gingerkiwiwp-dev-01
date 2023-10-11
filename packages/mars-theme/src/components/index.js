@@ -58,6 +58,7 @@ const globalStyles = css`
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
   }
   a,
   a:visited {
@@ -70,7 +71,7 @@ const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1f38c5;
+  background-color: magenta;
 `;
 
 const Main = styled.div`
